@@ -1,12 +1,12 @@
 ## read in test and train data, features, and subjects
-testX <- read.table("./project/test/X_test.txt")
-testY <- read.table("./project/test/y_test.txt")
-features <- read.table("./project/features.txt")
-activityLabels <- read.table("./project/activity_labels.txt")
-testSubjects <- read.table("./project/test/subject_test.txt")
-trainX <- read.table("./project/train/X_train.txt")
-trainY <- read.table("./project/train/y_train.txt")
-trainSubjects <- read.table("./project/train/subject_train.txt")
+testX <- read.table("./test/X_test.txt")
+testY <- read.table("./test/y_test.txt")
+features <- read.table("./features.txt")
+activityLabels <- read.table("./activity_labels.txt")
+testSubjects <- read.table("./test/subject_test.txt")
+trainX <- read.table("./train/X_train.txt")
+trainY <- read.table("./train/y_train.txt")
+trainSubjects <- read.table("./train/subject_train.txt")
 
 ## make variables names on testX and trainX correspond to features
 names(testX) <- features$V2
