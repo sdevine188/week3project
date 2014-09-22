@@ -1,0 +1,3 @@
+The column variables in the output data frame from running the run_analysis.R script are a subset of those found in the features.txt file of the smartphone data download.  The names of these variables is combined via an underscore symbol with the activity being conducted; these activities are listed in the activity_labels.txt file of the smartphone data download.
+
+For instance, the first variable/feature on the features.txt file is "tBodyAcc-mean()-X".  The first activity on the activity_labels.txt file is "WALKING".  So, the column variables in the output data frame providing the average value for the "tBodyAcc-mean()-X" measurment feature while conducting the "WALKING" activity will be "tBodyAcc-mean()-X_WALKING".  
