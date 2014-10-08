@@ -103,3 +103,4 @@ for(i in 1:length(subjectVec)) {
 }
 
 print(newdf)
+write.table(newdf, file = "tidydata.txt", sep = ",", row.names = FALSE, col.names = colnames(newdf))
